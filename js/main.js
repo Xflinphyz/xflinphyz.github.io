@@ -41,7 +41,7 @@ window.addEventListener('load', function () {
 }, false)
 
 setTimeout(function () {
-    $('#loading-text').html("字体及文件加载可能需要一定时间")
+    $('#loading-text').html("字体及文件加载可能需要亿点点时间")
 }, 3000);
 
 //延迟加载音乐播放器
