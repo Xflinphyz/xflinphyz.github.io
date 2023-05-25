@@ -43,7 +43,7 @@ function setBgImgInit() {
             pictures[6] = './img/7.jpg';
             pictures[7] = './img/8.jpg';
             pictures[8] = './img/9.jpg';
-            pictures[9] = './img/10.jpg';
+            pictures[9] = './img/10.png';
             pictures[10] = './img/11.jpg';
             pictures[11] = './img/12.jpg';
             pictures[12] = './img/13.jpg';
