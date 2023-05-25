@@ -45,16 +45,16 @@ setTimeout(function () {
 }, 3000);
 
 //延迟加载音乐播放器
-// function downloadJSAtOnload() {
-//     var element = document.createElement("script");
-//     element.src = "./js/music.js";
-//     document.body.appendChild(element);
-// }
-// if (window.addEventListener)
-//     window.addEventListener("load", downloadJSAtOnload, false);
-// else if (window.attachEvent)
-//     window.attachEvent("onload", downloadJSAtOnload);
-// else window.onload = downloadJSAtOnload;
+function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "./js/music.js";
+    document.body.appendChild(element);
+}
+if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
 
 //新春灯笼 （ 需要时取消注释 ）
 
