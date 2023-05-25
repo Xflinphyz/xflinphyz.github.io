@@ -176,16 +176,16 @@ $("#email").mouseover(function () {
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
-// $("#telegram").mouseover(function () {
-//     $("#link-text").html("你懂的 ~");
-// }).mouseout(function () {
-//     $("#link-text").html("通过这里联系我");
-// });
-// $("#twitter").mouseover(function () {
-//     $("#link-text").html("你懂的 ~");
-// }).mouseout(function () {
-//     $("#link-text").html("通过这里联系我");
-// });
+$("#telegram").mouseover(function () {
+    $("#link-text").html("你懂的 ~");
+}).mouseout(function () {
+    $("#link-text").html("通过这里联系我");
+});
+$("#twitter").mouseover(function () {
+    $("#link-text").html("你懂的 ~");
+}).mouseout(function () {
+    $("#link-text").html("通过这里联系我");
+});
 
 //更多页面切换
 var shoemore = false;
