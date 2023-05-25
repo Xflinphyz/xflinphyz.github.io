@@ -35,26 +35,26 @@ window.addEventListener('load', function () {
     setTimeout(function () {
         iziToast.show({
             timeout: 2500,
-            message: '请尽量使用电脑端以获得更好的体验！'
+            message: '请尽量使用横屏以获得更好的体验！'
         });
     }, 800);
 }, false)
 
 setTimeout(function () {
-    $('#loading-text').html("字体及文件加载可能需要亿点点时间")
+    $('#loading-text').html("字体及文件加载可能需要亿点点时间！！")
 }, 3000);
 
 //延迟加载音乐播放器
-function downloadJSAtOnload() {
-    var element = document.createElement("script");
-    element.src = "./js/music.js";
-    document.body.appendChild(element);
-}
-if (window.addEventListener)
-    window.addEventListener("load", downloadJSAtOnload, false);
-else if (window.attachEvent)
-    window.attachEvent("onload", downloadJSAtOnload);
-else window.onload = downloadJSAtOnload;
+// function downloadJSAtOnload() {
+//     var element = document.createElement("script");
+//     element.src = "./js/music.js";
+//     document.body.appendChild(element);
+// }
+// if (window.addEventListener)
+//     window.addEventListener("load", downloadJSAtOnload, false);
+// else if (window.attachEvent)
+//     window.attachEvent("onload", downloadJSAtOnload);
+// else window.onload = downloadJSAtOnload;
 
 //新春灯笼 （ 需要时取消注释 ）
 
@@ -176,16 +176,16 @@ $("#email").mouseover(function () {
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
-$("#telegram").mouseover(function () {
-    $("#link-text").html("你懂的 ~");
-}).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-});
-$("#twitter").mouseover(function () {
-    $("#link-text").html("你懂的 ~");
-}).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-});
+// $("#telegram").mouseover(function () {
+//     $("#link-text").html("你懂的 ~");
+// }).mouseout(function () {
+//     $("#link-text").html("通过这里联系我");
+// });
+// $("#twitter").mouseover(function () {
+//     $("#link-text").html("你懂的 ~");
+// }).mouseout(function () {
+//     $("#link-text").html("通过这里联系我");
+// });
 
 //更多页面切换
 var shoemore = false;
@@ -325,14 +325,10 @@ var title1 = 'Xflinphyzの主页'
 var title2 = ``
 var content = `
 版 本 号：2.6
-更新日期：2023-04-4
+更新日期：2023-05-25/18：08
 
 更新说明：
-1. 新增 壁纸个性化设置
-2. 新增 音乐播放器支持音量控制
-3. 优化 部分动画及细节
-4. 优化 页面加载缓慢
-5. 优化 音乐延迟加载
+1. 修复了一些BUG
 Github:  https://github.com/Xflinphyz
 `
 console.log(`%c${title1} %c${title2}
